@@ -14,12 +14,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl! 
-    @IBOutlet weak var myView: UIView!
+    @IBOutlet weak var myView: UIView! //first view with Bill amount and tip %
+    @IBOutlet weak var myView2: UIView! //second view with tip ammount and total
     
     override func viewWillAppear(_ animated: Bool) {
         
         myView.layer.cornerRadius = 15.0;
         myView.layer.borderWidth = 3.0;
+        
+        myView2.layer.cornerRadius = 15.0;
+        myView2.layer.borderWidth = 3.0;
+        myView2.layer.borderColor = UIColor.systemGreen.cgColor;
 
         
         self.navigationController?.isNavigationBarHidden =  true
@@ -29,7 +34,7 @@ class ViewController: UIViewController {
         self.view.layer.masksToBounds = true
 
         //UIView Set up border
-        self.view.layer.borderColor = UIColor.green.cgColor;
+        self.view.layer.borderColor = UIColor.systemGreen.cgColor;
         self.view.layer.borderWidth = 3.0;
     }
 

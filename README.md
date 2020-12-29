@@ -4,7 +4,7 @@
 
 Submitted by: **Tahmid Zaman**
 
-Time spent: **~4** hours spent in total
+Time spent: **~5** hours spent in total
 
 ## User Stories
 
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/eq56kvlpBE.gif' />
+<img src='http://g.recordit.co/6Ry3pEezDb.gif' />
 
 GIF created with [Recordit](https://recordit.co/).
 

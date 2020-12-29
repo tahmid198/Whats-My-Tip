@@ -13,14 +13,37 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
-    @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var tipControl: UISegmentedControl! 
+    @IBOutlet weak var myView: UIView!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        myView.layer.cornerRadius = 15.0;
+        myView.layer.borderWidth = 3.0;
+
+        
+        self.navigationController?.isNavigationBarHidden =  true
+
+        //UIView Corner Radius
+        self.view.layer.cornerRadius = 20.0;
+        self.view.layer.masksToBounds = true
+
+        //UIView Set up border
+        self.view.layer.borderColor = UIColor.green.cgColor;
+        self.view.layer.borderWidth = 3.0;
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        billField.layer.cornerRadius = 15.0;
+        billField.layer.borderWidth = 2.0;
+        //BillAmountLabel.layer.borderColor = UIColor.red.cgColor;
+        billField.clipsToBounds = true;
         // Do any additional setup after loading the view.
         
         // Sets the title in the Navigation Bar
-            //self.title = "Tip Calculator!"
+        //self.title = "Tip Calculator!"
     }
 
     

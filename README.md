@@ -30,11 +30,11 @@ Here's a walkthrough of implemented user stories:
 
 Original:
 
+![Image Walkthrough](./images/original.gif)
 
+Updated: 
 
-<img src= 'https://recordit.co/eq56kvlpBE.gif' />
-
-<img src='http://g.recordit.co/6Ry3pEezDb.gif' />
+![Image Walkthrough](./images/updated.gif)
 
 GIF created with [Recordit](https://recordit.co/).
 

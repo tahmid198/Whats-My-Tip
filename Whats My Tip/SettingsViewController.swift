@@ -31,7 +31,7 @@ class SettingsViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         //UIView Corner Radius
-        self.view.layer.cornerRadius = 20.0;
+        self.view.layer.cornerRadius = 50.0;
         self.view.layer.masksToBounds = true
 
         //UIView Set up border

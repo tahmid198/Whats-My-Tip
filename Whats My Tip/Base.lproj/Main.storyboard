@@ -50,7 +50,7 @@
                                         <rect key="frame" x="269" y="41" width="66" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="light"/>
                                         <connections>
                                             <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="b2v-Z5-rNb"/>
                                         </connections>
@@ -120,8 +120,10 @@
                         <outlet property="myView" destination="jxd-sX-chS" id="KYW-Sq-gYd"/>
                         <outlet property="myView2" destination="Auy-Tp-tqk" id="rIe-oP-91Y"/>
                         <outlet property="tipAmountLabel" destination="B2e-LH-BEI" id="f7m-mD-xnI"/>
+                        <outlet property="tipAmountTextLabel" destination="xZZ-I7-imC" id="YwI-3g-zva"/>
                         <outlet property="tipControl" destination="HFt-Bg-CQd" id="hzm-0i-y5s"/>
                         <outlet property="titleLabel" destination="OFY-ag-Ero" id="K2f-IE-2c2"/>
+                        <outlet property="totalAmountTextLabel" destination="BVh-T8-dIv" id="9kY-Av-I53"/>
                         <outlet property="totalLabel" destination="vCM-ma-dBP" id="UX0-dj-vsa"/>
                     </connections>
                 </viewController>
@@ -199,7 +201,6 @@
         <!--Navigation Controller-->
         <scene sceneID="jYj-Vn-TED">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XpI-bH-02v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vOb-iD-YJJ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="RdY-Mr-vZq"/>
@@ -212,6 +213,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="LfB-aK-7xS"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XpI-bH-02v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1205.7971014492755" y="83.967391304347828"/>
         </scene>

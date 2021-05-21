@@ -36,7 +36,7 @@ Original:
 
 Updated: 
 
-![Image Walkthrough](./images/2ndUpdate.gif)
+![Image Walkthrough](./images/2Update.gif)
 
 GIF created with [Recordit](https://recordit.co/)
 
